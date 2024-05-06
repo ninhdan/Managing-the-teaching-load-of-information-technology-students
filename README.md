@@ -1,44 +1,31 @@
 # Managing-the-teaching-load-of-information-technology-students
-This is code Managing the teaching load of information technology students
-# TTTN---2023---2024---Team-3
 ## 📝 Mô tả
-Đây là dự án quản lý khối lượng giảng dạy của giảng viên khoa công nghệ thông tin.
-## Thành viên
-### Nguyễn Hòa Ninh Đan (Trường nhóm)
-- Thu thập nghiệp vụ
-- Phân tích và thiết kế
-- Kiểm thử
-### Trần Trọng Phát
-- Thu thập nghiệp vụ
-- Lập trình
-### Trần Thế Quốc Bảo
-- Phân tích và thiết kế
-- Lập Trình
-### Võ Thị Mỹ Lệ 
-- Kiểm Thử
+This project aims to effectively manage the teaching load of information technology faculty.
 
 ## ✨ Đặc trưng
-- Xác thực người dùng - đăng nhập - đăng xuất - thay đổi mật khẩu cho giảng viên.
-- Quản lý tài khoản giảng viên - đăng ký tài khoản cho giảng viên - cập nhật tài khoản giảng viên.
-- Quản lý thông tin giảng dạy - quản lý môn học và quản lý lớp môn học.
-- Nhập dữ liệu thời khóa biểu bằng file excel - tự động tính toán thống kê
-- Phân tích và thống kê - so sánh khối lượng giảng dạy giữa 2 giảng viên cùng 1 kì, so sánh khối lượng giảng dạy của giảng viên giữa 2 học kì của giảng viên đó.
-- Xác nhận và thông báo - giảng viên xác nhận khối lượng đã dạy - gửi yêu cầu chỉnh sửa nếu có sai sót đối với thông kê - hệ thống thông báo của giảng lý cho giảng viên.
+-User authentication: login, logout, and password change for instructors.
+-Instructor account management: register new accounts for instructors, and update existing instructor accounts.
+-Teaching information management: manage courses and class schedules.
+-Import timetable data from Excel files and automatically calculate statistics.
+-Analysis and statistics: compare teaching loads between two instructors in the same semester, and compare teaching loads of an instructor between two semesters.
+-Confirmation and notification: instructors confirm their taught workload, and can request corrections if there are any discrepancies in the statistics. The system sends notifications to instructors.
 
-## 🛠️ Công nghệ sử dụng
+## 🛠️ Technologies Used
 - **PHP**
 - Datatables
 - Toastr
 - bootstrap5
 - Select2
-- ### Cơ sở dữ liệu
-- MYSQL Server 
+- ### Database
+- MYSQL Server
 
 ### Công cụ
 - VS Code 
 - Git
 - Excel
 - Wampserver64
+## 🙏 Acknowledgements
+We would like to thank the PHP community .Special thanks to contributors for their valuable input and feedback.
 
 
 
